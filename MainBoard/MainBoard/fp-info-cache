@@ -1,4 +1,4 @@
-26440296255085200
+26442053339952838
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -105609,6 +105609,13 @@ BAT_BH123A
 2
 2
 inspirefly
+BNO086
+BNO086-1
+Undefined or Miscellaneous
+0
+28
+28
+inspirefly
 BQ25171QWDRCRQ1
 BQ25171QWDRCRQ1-3
 Integrated Circuit
@@ -105669,5 +105676,5 @@ XCVR_RFM98W-433S2
 
 
 0
-32
-32
+16
+16

@@ -1884,24 +1884,6 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at -15.24 7.62 0)
-				(length 5.08)
-				(name "RESET__1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "6_1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
 			(pin input clock
 				(at -15.24 2.54 0)
 				(length 5.08)
@@ -1913,24 +1895,6 @@
 					)
 				)
 				(number "4"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin input clock
-				(at -15.24 0 0)
-				(length 5.08)
-				(name "SCK__1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "4_1"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -1957,24 +1921,6 @@
 				)
 			)
 			(pin input line
-				(at -15.24 -5.08 0)
-				(length 5.08)
-				(name "NSS__1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "5_1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin input line
 				(at -15.24 -7.62 0)
 				(length 5.08)
 				(name "MOSI"
@@ -1985,24 +1931,6 @@
 					)
 				)
 				(number "3"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -15.24 -10.16 0)
-				(length 5.08)
-				(name "MOSI__1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "3_1"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -2028,24 +1956,6 @@
 					)
 				)
 			)
-			(pin output line
-				(at -15.24 -15.24 0)
-				(length 5.08)
-				(name "MISO__1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "2_1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
 			(pin power_in line
 				(at 15.24 15.24 180)
 				(length 5.08)
@@ -2057,24 +1967,6 @@
 					)
 				)
 				(number "13"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 15.24 12.7 180)
-				(length 5.08)
-				(name "3.3V__1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "13_1"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -2101,24 +1993,6 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 5.08 180)
-				(length 5.08)
-				(name "ANT__1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "9_1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
 				(at 15.24 0 180)
 				(length 5.08)
 				(name "DIO0"
@@ -2129,24 +2003,6 @@
 					)
 				)
 				(number "14"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 15.24 -2.54 180)
-				(length 5.08)
-				(name "DIO0__1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "14_1"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -2173,24 +2029,6 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 -7.62 180)
-				(length 5.08)
-				(name "DIO1__1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "15_1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
 				(at 15.24 -10.16 180)
 				(length 5.08)
 				(name "DIO2"
@@ -2201,24 +2039,6 @@
 					)
 				)
 				(number "16"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 15.24 -12.7 180)
-				(length 5.08)
-				(name "DIO2__1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "16_1"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -2245,24 +2065,6 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 -17.78 180)
-				(length 5.08)
-				(name "DIO3__1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "11_1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
 				(at 15.24 -20.32 180)
 				(length 5.08)
 				(name "DIO4"
@@ -2281,24 +2083,6 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 -22.86 180)
-				(length 5.08)
-				(name "DIO4__1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "12_1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
 				(at 15.24 -25.4 180)
 				(length 5.08)
 				(name "DIO5"
@@ -2309,24 +2093,6 @@
 					)
 				)
 				(number "7"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 15.24 -27.94 180)
-				(length 5.08)
-				(name "DIO5__1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "7_1"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -2353,24 +2119,6 @@
 				)
 			)
 			(pin power_in line
-				(at 15.24 -35.56 180)
-				(length 5.08)
-				(name "GND__1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "1_1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin power_in line
 				(at 15.24 -38.1 180)
 				(length 5.08)
 				(name "GND__2"
@@ -2389,24 +2137,6 @@
 				)
 			)
 			(pin power_in line
-				(at 15.24 -40.64 180)
-				(length 5.08)
-				(name "GND__3"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "8_1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin power_in line
 				(at 15.24 -43.18 180)
 				(length 5.08)
 				(name "GND__4"
@@ -2417,24 +2147,6 @@
 					)
 				)
 				(number "10"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 15.24 -45.72 180)
-				(length 5.08)
-				(name "GND__5"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "10_1"
 					(effects
 						(font
 							(size 1.016 1.016)
