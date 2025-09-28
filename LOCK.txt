@@ -7,7 +7,7 @@ LOCKED BY: FULL NAME (PID)
 START: DATE and TIME
 STATUS: List what you are doing
 
-Remember to remove your 'LOCK' when done and ensure that push has relevant comments
+Remember to remove your 'LOCK' when done and ensure that push has relevant comments to actions done.
 
 Log:
 
