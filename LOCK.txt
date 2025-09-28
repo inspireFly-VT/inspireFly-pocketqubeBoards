@@ -10,8 +10,3 @@ STATUS: List what you are doing
 Remember to remove your 'LOCK' when done and ensure that push has relevant comments to actions done.
 
 Log:
-
-FILE: mainboard.kicad_pcb
-LOCKED BY: Shane Wyman (shanew05)
-START: 9/28 4:30 PM EST
-STATUS: Showing off the lock file
