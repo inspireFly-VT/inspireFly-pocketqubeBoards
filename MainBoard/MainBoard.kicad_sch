@@ -9473,6 +9473,10 @@
 		(uuid "07ffecb5-2bca-4014-a801-46860de24584")
 	)
 	(no_connect
+		(at 45.72 73.66)
+		(uuid "09b5357a-5fbd-48ba-98b0-a809eda7a734")
+	)
+	(no_connect
 		(at 110.49 369.57)
 		(uuid "1bedcce7-a779-4937-b7f1-219b42997090")
 	)
@@ -9495,6 +9499,10 @@
 	(no_connect
 		(at 156.21 382.27)
 		(uuid "31d6d4bc-ac7c-41fd-ba67-c401eda2d333")
+	)
+	(no_connect
+		(at 326.39 292.1)
+		(uuid "32d3eaff-42f8-41a8-8a8b-11d8760bc252")
 	)
 	(no_connect
 		(at 156.21 374.65)
@@ -9555,6 +9563,10 @@
 	(no_connect
 		(at 448.31 377.19)
 		(uuid "a342abcf-fdb9-451b-b650-81f12ff801c9")
+	)
+	(no_connect
+		(at 326.39 289.56)
+		(uuid "ac624e4d-fc8d-4d7b-b73d-b5d158245ead")
 	)
 	(no_connect
 		(at 278.13 307.34)
@@ -11866,6 +11878,28 @@
 		)
 		(uuid "fffb10a7-c443-4da4-bbe7-49849b721fb5")
 	)
+	(global_label "IMU_PS0{slash}WAKE_GPIO"
+		(shape output)
+		(at 41.91 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "023498ff-6e47-48e0-94c2-f6c7336e2413")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 19.1491 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "QUADSPI_BK2_IO2"
 		(shape bidirectional)
 		(at 140.97 335.28 180)
@@ -11879,6 +11913,28 @@
 		(uuid "0f7c8f9d-7c0c-47f2-8414-10a2b0b5fadf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 119.9401 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IMU_PSO{slash}WAKE_GPIO"
+		(shape output)
+		(at 278.13 302.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "117fa6e3-8724-4526-894c-b3b52d36eba4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 255.2481 302.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11950,6 +12006,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IMU_H_INTN_GPIO"
+		(shape output)
+		(at 278.13 322.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "23e92d20-c3dc-4a26-8ea2-77bdde5b0e2f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 258.8161 322.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -12385,6 +12463,28 @@
 		(uuid "ed074950-2ef7-41fc-8c65-85e3f5ad9003")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 76.6452 375.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IMU_H_INTN_GPIO"
+		(shape input)
+		(at 118.11 167.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ed509dd7-7cc5-4aa2-ad5a-93d85aa7c035")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 137.4239 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
