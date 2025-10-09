@@ -9,8 +9,4 @@ STATUS: List what you are doing
 
 Remember to remove your 'LOCK' when done and ensure that push has relevant comments to actions done.
 
-Log:
-FILE: boardName.kicad_pcb , mainboard.kicad_sch
-LOCKED BY: Yoshita Papasani (PID)
-START: 2:18 PM 10/9/2025
-STATUS: working on IMU
+
