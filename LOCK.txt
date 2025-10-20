@@ -8,8 +8,3 @@ START: DATE and TIME
 STATUS: List what you are doing
 
 Remember to remove your 'LOCK' when done and ensure that push has relevant comments to actions done.
-
-FILE: mainboard.kicad_pcb , mainboard.kicad_sch
-LOCKED BY: Shane Wyman shanew05
-START: 10:24 10/20
-STATUS: Updating footprints and schematic work
