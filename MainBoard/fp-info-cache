@@ -1,4 +1,4 @@
-26443813651238929
+26450857338254353
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -105630,6 +105630,20 @@ MSS2P2-M3/89A
 2
 2
 inspirefly
+IC_BQ25756ERRVR
+
+
+0
+53
+53
+inspirefly
+IND_TYS8040100M-10_LRD
+
+TYS8040100M-10 
+0
+2
+2
+inspirefly
 KINGHELM_KH-TYPE-C-16P
 
 
@@ -105665,6 +105679,13 @@ Integrated Circuit
 100
 100
 inspirefly
+TO-236AB_SOT23_NEX
+
+PMV19XNEAR 
+0
+3
+3
+inspirefly
 USON-8L-2X3X0P6_MAC
 
 MX25R1635FZUIL0 
@@ -105678,6 +105699,13 @@ VREG_TPS63802DLAR
 0
 10
 10
+inspirefly
+WE-LQSA_5040
+
+
+0
+2
+2
 inspirefly
 XCVR_RFM98W-433S2
 
