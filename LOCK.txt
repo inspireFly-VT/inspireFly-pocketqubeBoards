@@ -8,3 +8,8 @@ START: DATE and TIME
 STATUS: List what you are doing
 
 Remember to remove your 'LOCK' when done and ensure that push has relevant comments to actions done.
+
+FILE: mainboard schematics
+LOCKED BY: Shane Wyman
+START: 6:06pm 11/2/2025
+STATUS: Adding IMU changes
