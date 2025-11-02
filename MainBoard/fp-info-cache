@@ -1,4 +1,4 @@
-26450857338254353
+26452619448393557
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -105664,6 +105664,13 @@ SOT65P280X145-8N
 0
 8
 8
+inspirefly
+SOT_INA185_TEX
+
+INA185A1IDRLR 
+0
+6
+6
 inspirefly
 SOT_V-T1-GE3_VIS-M
 
