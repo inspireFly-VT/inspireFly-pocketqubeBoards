@@ -9555,12 +9555,13 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "22k Ohm ±5% 62.5mW Power Per Element Bussed Resistor Network/Array ±200ppm/°C 1206 (3216 Metric), Convex, Long Side Terminals"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
@@ -9575,16 +9576,6 @@
 				)
 			)
 			(property "MOUSER-PURCHASE-URL" "https://snapeda.com/shop?store=Mouser&id=600502"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "DESCRIPTION" "22k Ohm ±5% 62.5mW Power Per Element Bussed Resistor Network/Array ±200ppm/°C 1206 (3216 Metric), Convex, Long Side Terminals"
 				(at 0 0 0)
 				(effects
 					(font
@@ -16473,6 +16464,28 @@
 			)
 		)
 	)
+	(global_label "IMU_MCU_SLK"
+		(shape input)
+		(at 220.98 299.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "74145c7e-4de9-447b-ac09-94cebdbe4797")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 236.8466 299.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "BAT+"
 		(shape bidirectional)
 		(at 344.17 231.14 180)
@@ -16781,6 +16794,28 @@
 			)
 		)
 	)
+	(global_label "H_MDSI_MCUMOSI"
+		(shape input)
+		(at 220.98 294.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9c5b7d64-83e9-47df-b75f-301419149ec0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 240.4147 294.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "EXTERNAL_LOW_SIDE_DRIVE"
 		(shape input)
 		(at 400.05 334.01 180)
@@ -16997,6 +17032,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IMU_MCU_MISO"
+		(shape input)
+		(at 220.98 302.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "adb0f032-2b84-4a9f-b666-f9f1301d0f5e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 237.9352 302.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -17234,6 +17291,28 @@
 		(uuid "d3c3936d-b8d4-4dd1-912b-7e8b37b9c1bf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 476.9975 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IMU_CSN_GPIO"
+		(shape input)
+		(at 220.98 297.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d5366b9f-fdf1-4dd6-b900-8458f7a1a904")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 237.5724 297.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
