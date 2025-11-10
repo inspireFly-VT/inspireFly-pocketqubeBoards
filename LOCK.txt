@@ -8,9 +8,3 @@ START: DATE and TIME
 STATUS: List what you are doing
 
 Remember to remove your 'LOCK' when done and ensure that push has relevant comments to actions done.
-
-
-FILE: mainboard-schematic
-LOCKED BY: Shane Wyman
-START: 11/10 10:12am
-STATUS: Fixing some BQ stuff and adding testpoints
