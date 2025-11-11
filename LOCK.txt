@@ -6,3 +6,9 @@ FILE: boardName.kicad_pcb , schematicName.kicad_sch
 LOCKED BY: FULL NAME (PID)
 START: DATE and TIME
 STATUS: List what you are doing
+
+
+FILE: mainboard schematic
+LOCKED BY: Shane Wyman
+START: 11/11 5pm
+STATUS: Doing lots of the STM connections
