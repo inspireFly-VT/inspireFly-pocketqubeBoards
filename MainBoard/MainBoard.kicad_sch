@@ -24103,7 +24103,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 359.664 305.054 90)
 			(effects
 				(font
@@ -27965,7 +27965,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 460.0448 298.45 0)
 			(effects
 				(font
@@ -29078,7 +29078,7 @@
 				)
 			)
 		)
-		(property "Footprint" "USB4110-GF-A_GCT"
+		(property "Footprint" "inspirefly:USB4110-GF-A_GCT"
 			(at 24.13 374.65 0)
 			(effects
 				(font
@@ -32295,7 +32295,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 382.5748 298.45 0)
 			(effects
 				(font
