@@ -7,8 +7,3 @@ LOCKED BY: FULL NAME (PID)
 START: DATE and TIME
 STATUS: List what you are doing
 
-FILE: mainboard
-LOCKED BY: Shane Wyman
-START: 11/17 1:15pm
-STATUS: More placement work
-
