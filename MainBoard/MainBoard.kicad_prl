@@ -8,19 +8,19 @@
     "high_contrast_mode": 0,
     "net_color_mode": 1,
     "opacity": {
-      "images": 0.8100000023841858,
+      "images": 0.7900000214576721,
       "pads": 0.9399999976158142,
-      "shapes": 0.7400000095367432,
+      "shapes": 0.7900000214576721,
       "tracks": 1.0,
-      "vias": 0.9900000095367432,
-      "zones": 0.6100000143051147
+      "vias": 1.0,
+      "zones": 0.3799999952316284
     },
     "selection_filter": {
       "dimensions": true,
       "footprints": true,
       "graphics": true,
       "keepouts": true,
-      "lockedItems": true,
+      "lockedItems": false,
       "otherItems": true,
       "pads": true,
       "text": true,
@@ -50,7 +50,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "ffffffff_ffffffff_fffffff7_ffffff7f",
+    "visible_layers": "ffffffff_ffffffff_fffffff7_ffffffff",
     "zone_display_mode": 0
   },
   "git": {
