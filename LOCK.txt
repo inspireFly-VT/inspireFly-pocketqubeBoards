@@ -6,9 +6,3 @@ FILE: boardName.kicad_pcb , schematicName.kicad_sch
 LOCKED BY: FULL NAME (PID)
 START: DATE and TIME
 STATUS: List what you are doing
-
-FILE: mainboard
-LOCKED BY: Shane Wyman
-START: 10:14 11/20
-STATUS: Doing cap routing and some power routing
-
