@@ -3128,7 +3128,7 @@
 			)
 		)
 		(property "Value" "M55-7104042R"
-			(at -8.89 -27.94 0)
+			(at -8.382 -32.512 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3176,8 +3176,8 @@
 		)
 		(symbol "M55-7104042R_0_0"
 			(rectangle
-				(start -8.89 -25.4)
-				(end 8.89 27.94)
+				(start -8.89 27.94)
+				(end 8.89 -30.48)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -4342,6 +4342,80 @@
 					(effects
 						(font
 							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(symbol "M55-7104042R_1_1"
+			(pin bidirectional line
+				(at -13.01 -25.4 0)
+				(length 4)
+				(name "Shield"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "SH3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -13.01 -27.94 0)
+				(length 4)
+				(name "Shield"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "SH4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 13.01 -25.4 180)
+				(length 4)
+				(name "Shield"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "SH1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 13.01 -27.94 180)
+				(length 4)
+				(name "Shield"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "SH2"
+					(effects
+						(font
+							(size 1.27 1.27)
 						)
 					)
 				)
