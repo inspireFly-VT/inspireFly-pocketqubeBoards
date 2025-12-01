@@ -10,17 +10,17 @@
     "opacity": {
       "images": 0.7900000214576721,
       "pads": 0.9399999976158142,
-      "shapes": 0.7900000214576721,
+      "shapes": 0.6700000166893005,
       "tracks": 1.0,
       "vias": 1.0,
-      "zones": 0.28999999165534973
+      "zones": 0.3499999940395355
     },
     "selection_filter": {
       "dimensions": true,
       "footprints": true,
       "graphics": true,
       "keepouts": true,
-      "lockedItems": true,
+      "lockedItems": false,
       "otherItems": true,
       "pads": true,
       "text": true,
@@ -49,7 +49,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "ffffffff_ffffffff_fffffff7_ffffffef",
+    "visible_layers": "ffffffff_ffffffff_fffffff7_ffffffff",
     "zone_display_mode": 0
   },
   "git": {
