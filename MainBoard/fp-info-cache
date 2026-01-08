@@ -1,4 +1,4 @@
-26835562547275938
+26846180561772674
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -106505,6 +106505,13 @@ HARWIN_M55-7104042R
 44
 44
 inspirefly
+HeaterConnection
+
+
+0
+2
+2
+inspirefly
 IC_BQ25756ERRVR
 
 
@@ -106547,6 +106554,13 @@ MoutingPad
 1
 1
 inspirefly
+NRBG104F3435B2F
+
+
+0
+2
+2
+inspirefly
 RESCAXE64P320X160X70-10N
 
 
@@ -106560,6 +106574,13 @@ TPS259470ARPWR
 0
 10
 10
+inspirefly
+SAMTEC_FTSH-107-01-L-DV-K-A
+translated Allegro footprint
+
+0
+14
+14
 inspirefly
 SOT23-6L_STM
 
@@ -106658,3 +106679,24 @@ XTAL_ABS07-32.768KHZ-T
 0
 2
 2
+inspirefly
+longInspireFly_12mmX4mm
+
+
+0
+0
+0
+inspirefly
+shortInspireFly_3mmX3mm
+
+
+0
+0
+0
+inspirefly
+shortInspireFly_3mmX3mm_Fcu
+
+
+0
+0
+0

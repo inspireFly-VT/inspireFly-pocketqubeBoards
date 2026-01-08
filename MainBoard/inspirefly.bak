@@ -8448,7 +8448,7 @@
 			)
 		)
 		(property "Value" "TPS259470ARPWR"
-			(at 0 0 0)
+			(at 18.542 3.048 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8466,7 +8466,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/gpn/tps25947"
-			(at 0 0 0)
+			(at -1.524 9.652 0)
 			(effects
 				(font
 					(size 1.27 1.27)
