@@ -8,3 +8,7 @@ START: DATE and TIME
 STATUS: List what you are doing
 
 
+FILE: MainBoard.kicad_pcb
+LOCKED BY: Christian Galvez (chant4)
+START: 2/2/2026 and 13:00
+STATUS: Changing traces to 4 mils and rerouting to fix clearance violations
