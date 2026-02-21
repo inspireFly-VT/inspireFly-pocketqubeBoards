@@ -7,3 +7,7 @@ LOCKED BY: FULL NAME (PID)
 START: DATE and TIME
 STATUS: List what you are doing
 
+File: Solar board pcb and schematic 
+locked by: Yoshita 
+start: 2/21/2026 2:43
+status: build schematic 
