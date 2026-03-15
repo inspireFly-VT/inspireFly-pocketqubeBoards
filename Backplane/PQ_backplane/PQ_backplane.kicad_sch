@@ -4879,12 +4879,6 @@
 		(uuid "42972cbc-d21b-449e-8f46-70033cd75d4d")
 	)
 	(junction
-		(at 140.97 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "43dd4bce-f07a-4484-89ee-d97cd9cb73bd")
-	)
-	(junction
 		(at 167.64 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5159,16 +5153,6 @@
 			(type default)
 		)
 		(uuid "020d64b7-1d12-40b9-b59b-47fb7c6a6ad8")
-	)
-	(wire
-		(pts
-			(xy 138.43 50.8) (xy 140.97 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03e94a3e-ae53-44d1-85f4-652f19e63334")
 	)
 	(wire
 		(pts
@@ -6462,16 +6446,6 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 53.34) (xy 140.97 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e28fded1-587c-4f77-9ae4-4c9775adc1bd")
-	)
-	(wire
-		(pts
 			(xy 219.71 46.99) (xy 219.71 49.53)
 		)
 		(stroke
@@ -6502,7 +6476,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 50.8) (xy 142.24 50.8)
+			(xy 140.97 53.34) (xy 142.24 53.34)
 		)
 		(stroke
 			(width 0)
@@ -6744,7 +6718,7 @@
 	)
 	(global_label "BAT_VOLTAGE"
 		(shape input)
-		(at 142.24 50.8 0)
+		(at 142.24 53.34 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6754,7 +6728,7 @@
 		)
 		(uuid "1219c01c-c503-41ee-b0d6-c085cf6a2931")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.4414 50.8 0)
+			(at 157.4414 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6782,28 +6756,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BATMANG_INT_DIN"
-		(shape input)
-		(at 138.43 35.56 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "156b94da-696b-4f9e-9c7d-93ed8a6e8669")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.9253 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -7134,6 +7086,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BATMANG_INT_DIN"
+		(shape input)
+		(at 138.43 35.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3d677c92-c3df-4cd7-937d-8e45e58df2fa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 157.9253 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -7754,6 +7728,28 @@
 			)
 		)
 	)
+	(global_label "ADC1_A1"
+		(shape input)
+		(at 138.43 50.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c11b32c3-69ca-4760-8384-e87af7cd8f95")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 149.519 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "USBC_PD_INT_N"
 		(shape output)
 		(at 60.96 74.93 0)
@@ -8036,6 +8032,50 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ADC1_A1"
+		(shape input)
+		(at 60.96 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "efce90ac-6a37-4a68-9e34-1b46ffb5c323")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 72.049 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BATMANG_INT_DIN"
+		(shape input)
+		(at 60.96 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f1e93d9d-eb3d-426e-b94e-45c7d07ecd53")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 80.4553 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -8479,73 +8519,6 @@
 			(project "PQ_backplane"
 				(path "/e587a8f5-ffbc-4d9c-9649-3a36ea350c60"
 					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 60.96 69.85 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "224058b0-9efe-4f06-b2fa-d5ae95a56efd")
-		(property "Reference" "#PWR09"
-			(at 67.31 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 64.77 69.8499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 60.96 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 60.96 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 60.96 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c62f7376-d4ea-4437-8f75-d0f8ad43b6ab")
-		)
-		(instances
-			(project "PQ_backplane"
-				(path "/e587a8f5-ffbc-4d9c-9649-3a36ea350c60"
-					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -12097,73 +12070,6 @@
 			(project "PQ_backplane"
 				(path "/e587a8f5-ffbc-4d9c-9649-3a36ea350c60"
 					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 60.96 57.15 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eda37fcf-1a5f-4ee7-b734-0261897fc8c1")
-		(property "Reference" "#PWR026"
-			(at 67.31 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 64.77 57.1499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 60.96 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 60.96 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 60.96 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1cdfc386-a3c7-428b-ab6e-e86d6d9a9a9d")
-		)
-		(instances
-			(project "PQ_backplane"
-				(path "/e587a8f5-ffbc-4d9c-9649-3a36ea350c60"
-					(reference "#PWR026")
 					(unit 1)
 				)
 			)
