@@ -4873,12 +4873,6 @@
 		(uuid "2cf9984a-e241-41c6-ba32-3f4607955c2a")
 	)
 	(junction
-		(at 142.24 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "40c07efd-a991-43d5-8c84-7b00788a4c54")
-	)
-	(junction
 		(at 219.71 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6058,16 +6052,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 35.56) (xy 142.24 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6181274-f445-4778-ac5c-0461ab8c7f64")
-	)
-	(wire
-		(pts
 			(xy 54.61 114.3) (xy 54.61 116.84)
 		)
 		(stroke
@@ -6135,16 +6119,6 @@
 			(type default)
 		)
 		(uuid "ae1225f1-95be-46e9-9399-00829b86421f")
-	)
-	(wire
-		(pts
-			(xy 138.43 35.56) (xy 142.24 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae4e67f1-65e9-4759-bcfb-e9f34f721a46")
 	)
 	(wire
 		(pts
@@ -6808,6 +6782,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BATMANG_INT_DIN"
+		(shape input)
+		(at 138.43 35.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "156b94da-696b-4f9e-9c7d-93ed8a6e8669")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 157.9253 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -7534,6 +7530,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FOOTSWITCH"
+		(shape input)
+		(at 138.43 38.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8d443cb8-dec5-4aa5-8881-2099e3b117cc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 152.9662 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -11946,73 +11964,6 @@
 			(project "PQ_backplane"
 				(path "/e587a8f5-ffbc-4d9c-9649-3a36ea350c60"
 					(reference "#PWR063")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 138.43 38.1 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dccb779f-697d-4b7f-8960-63cbd0a89361")
-		(property "Reference" "#PWR021"
-			(at 144.78 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 142.24 38.0999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 138.43 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 138.43 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 138.43 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "22de90be-dd8a-446c-8449-9ed52738dae2")
-		)
-		(instances
-			(project "PQ_backplane"
-				(path "/e587a8f5-ffbc-4d9c-9649-3a36ea350c60"
-					(reference "#PWR021")
 					(unit 1)
 				)
 			)
