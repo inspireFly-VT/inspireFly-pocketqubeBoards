@@ -1,0 +1,179 @@
+(footprint "DIODFN100X60X55-2N"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.032 -1.1564 0)
+		(layer "F.SilkS")
+		(uuid "6c2d3ac8-c74a-461d-9066-1222e5e1fac4")
+		(effects
+			(font
+				(size 0.64 0.64)
+			)
+		)
+	)
+	(property "Value" "DIODFN100X60X55-2N"
+		(at 5.3152 1.1564 0)
+		(layer "F.Fab")
+		(uuid "d0da08d3-8d93-4b84-97ac-dbef5ee31eb2")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d2592ad6-0907-47ce-b416-1b75876bb6c7")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d3888aaf-94ac-4a97-8d23-7caf5e5cc7b8")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_circle
+		(center -1.25 0)
+		(end -1.15 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "b9bbc346-05e5-464c-9fc9-998a1db0a1b2")
+	)
+	(fp_line
+		(start -0.75 -0.55)
+		(end -0.75 0.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "189a9b4f-7a11-4bc6-bc4a-b2b6d1e0f165")
+	)
+	(fp_line
+		(start -0.75 0.55)
+		(end 0.75 0.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "10f289a4-2350-4dd7-8bd5-e651ed86d450")
+	)
+	(fp_line
+		(start 0.75 -0.55)
+		(end -0.75 -0.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7ba0dc86-eab1-49a7-9f4e-778073b79e5a")
+	)
+	(fp_line
+		(start 0.75 0.55)
+		(end 0.75 -0.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ff03063c-6981-4b54-b26f-09dbd2702043")
+	)
+	(fp_line
+		(start -0.5 -0.3)
+		(end -0.5 0.3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4b8fd32f-2e69-4e8c-963e-5b98d2e87b0e")
+	)
+	(fp_line
+		(start -0.5 0.3)
+		(end 0.5 0.3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1c343eb5-850e-4ad8-94ef-1ef1f3acf67d")
+	)
+	(fp_line
+		(start 0.5 -0.3)
+		(end -0.5 -0.3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "97fa2a00-eda6-4951-ba14-505ccc220d57")
+	)
+	(fp_line
+		(start 0.5 0.3)
+		(end 0.5 -0.3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "51866f20-3f89-4915-abb8-4c96099515c5")
+	)
+	(fp_circle
+		(center -1.25 0)
+		(end -1.15 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "94a269b9-6eca-4297-aafc-2805e8dd0fa1")
+	)
+	(pad "1" smd rect
+		(at -0.325 0)
+		(size 0.28 0.52)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "e66c329d-63b4-433f-8cfd-c8a803bdc7fb")
+	)
+	(pad "2" smd rect
+		(at 0.325 0)
+		(size 0.28 0.52)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "53cfdddd-fe2f-46a3-bbdc-f8205fc07006")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/shane/Documents/GitHub/inspireFly-pocketqubeBoards/SolarBoards/3D Models/CDBQC0130L-HF.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

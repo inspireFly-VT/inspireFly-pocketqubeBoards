@@ -679,7 +679,7 @@
         "uuid": "00000000-0000-0000-0000-000000000000"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR104,R13",
     "variants": []
   },
   "sheets": [
