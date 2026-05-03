@@ -624,7 +624,7 @@
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
       "field_names": [],
-      "hop_over_size_choice": 0,
+      "hop_over_size_choice": 2,
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
@@ -662,16 +662,16 @@
       {
         "filename": "BatteryBoard.kicad_sch",
         "name": "BatteryBoard",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "6b5bd430-8554-421d-a2d3-13f7e8cab430"
       }
     ],
-    "used_designators": "",
+    "used_designators": "C19-25,C39-40,C46-47,C50-60,L3,#PWR12,#PWR19-20,#PWR29,#PWR31-35,#PWR37,#PWR39-40,#PWR43,#PWR54,#PWR61-64,#PWR66-70,#PWR72-77,#PWR104-106,R13,R22,R36-38,TH2,TP3,TP5,U3,U7,Q4,Q6",
     "variants": []
   },
   "sheets": [
     [
       "6b5bd430-8554-421d-a2d3-13f7e8cab430",
-      "Root"
+      "BatteryBoard"
     ]
   ],
   "text_variables": {},
