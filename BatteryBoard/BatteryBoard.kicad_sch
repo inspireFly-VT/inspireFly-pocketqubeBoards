@@ -6248,9 +6248,9 @@
 		)
 		(uuid "f2b3ee03-f88f-4b98-8d70-ad097addd32c")
 	)
-	(text "IHLP1212BZEZ2R2M1Z"
+	(text "SRP4020FA-2R2M"
 		(exclude_from_sim no)
-		(at 426.212 325.882 0)
+		(at 426.974 325.882 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17928,7 +17928,7 @@
 				)
 			)
 		)
-		(property "Footprint" "inspirefly:IHLP1212BZEZ2R2M1Z"
+		(property "Footprint" "inspirefly:IND_SRP4020FA-2R2M_BRN"
 			(at 422.656 326.136 90)
 			(hide yes)
 			(show_name no)
