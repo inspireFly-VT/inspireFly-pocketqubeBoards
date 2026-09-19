@@ -1,0 +1,224 @@
+(footprint "DNP0006A"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(tags "OPT3004DNPR ")
+	(property "Reference" "REF**"
+		(at -0.18 2.48 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b67d24ce-47bb-4fea-b3be-7879b673b76c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "DNP0006A"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "23fdb416-2e9c-4d9e-8e34-f624e20ab4fd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c17c7af3-88c0-48b6-9db3-552453b17dbd")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5506c02a-c1d5-4f80-b17d-ad399ed383be")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.124999 -1.15)
+		(end -0.125001 -1.15)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d76de682-a8d9-4b5e-a0d2-cff6de8a09b2")
+	)
+	(fp_line
+		(start -1.124999 1.15)
+		(end -0.924999 1.15)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9878b8aa-c249-4da6-83e3-e5453a996f45")
+	)
+	(fp_line
+		(start 0.924999 -1.15)
+		(end 1.124999 -1.15)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a4dc8d70-e7f5-4b98-9778-0c1b8b3f2188")
+	)
+	(fp_line
+		(start 0.924999 1.15)
+		(end 1.124999 1.15)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fdd70534-3ec0-46e2-b17f-1893383a50ed")
+	)
+	(fp_poly
+		(pts
+			(xy 0.309999 0.625) (xy 0.309999 -0.625) (xy -0.309999 -0.625) (xy -0.309999 0.625)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "1c2c9142-a7a8-4763-80e0-ded7bb8232c4")
+	)
+	(fp_line
+		(start -1.05 -1.05)
+		(end 1.05 -1.05)
+		(stroke
+			(width 0.07)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1b6e7646-d4ce-48ef-b3a2-a5d46178e0bd")
+	)
+	(fp_line
+		(start -1.05 1.05)
+		(end -1.05 -1.05)
+		(stroke
+			(width 0.07)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "116a916a-77b0-4c3f-9ff0-ca7916f92ffb")
+	)
+	(fp_line
+		(start -1.05 1.05)
+		(end 1.05 1.05)
+		(stroke
+			(width 0.07)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d27ddd2c-2c14-40f2-8f5c-2b86e459dc68")
+	)
+	(fp_line
+		(start 1.05 1.05)
+		(end 1.05 -1.05)
+		(stroke
+			(width 0.07)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "25e7717e-dc35-4c94-b040-914c3543a786")
+	)
+	(fp_circle
+		(center -0.5556 -0.635)
+		(end -0.3556 -0.635)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "d89097b6-6eeb-4b5a-abcc-43d9367895fc")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8bd5fd68-a783-4769-9ead-df209bbb5394")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd oval
+		(at -0.950001 -0.650001 90)
+		(size 0.249999 0.499999)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c584590e-c856-4d49-a914-5e398f23d946")
+	)
+	(pad "2" smd oval
+		(at -0.950001 0 90)
+		(size 0.249999 0.499999)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d2bd7072-7d4c-4191-a469-da4417886f81")
+	)
+	(pad "3" smd oval
+		(at -0.950001 0.655 90)
+		(size 0.249999 0.499999)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1e4cc6ce-724f-4e2c-bc4e-69dbe6b3794a")
+	)
+	(pad "4" smd oval
+		(at 0.950001 0.650001 90)
+		(size 0.249999 0.499999)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4c6476dc-1adf-422d-9101-9c58c4b7e7c8")
+	)
+	(pad "5" smd oval
+		(at 0.950001 0 90)
+		(size 0.249999 0.499999)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b3335b38-fc4a-46b1-bd69-df80afd845a6")
+	)
+	(pad "6" smd oval
+		(at 0.950001 -0.650001 90)
+		(size 0.249999 0.499999)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8a84259f-ae46-40c7-99c4-a489627f5538")
+	)
+	(pad "7" smd rect
+		(at 0 0)
+		(size 0.650001 1.35)
+		(layers "F.Cu" "F.Mask")
+		(uuid "4e9bf2b4-94d2-470c-bf89-ff23276e1a6f")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/shane/Documents/GitHub/inspireFly-pocketqubeBoards/SolarBoards/3D Models/DNP0006A.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

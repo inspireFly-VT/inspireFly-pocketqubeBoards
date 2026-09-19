@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "inspirefly")(type "KiCad")(uri "${KIPRJMOD}/inspirefly.kicad_sym")(options "")(descr ""))
+)
